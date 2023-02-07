@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "b" {
-  bucket = "mrrahamtf006655"
+  bucket = "mrsumittf006655"
   acl    = "private"
 
   versioning {
@@ -12,7 +12,7 @@ resource "aws_ebs_volume" "example" {
   size              = 40
 
   tags = {
-    Name = "raham-ebs"
+    Name = "sumit-ebs"
   }
 }
 
